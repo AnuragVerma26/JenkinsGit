@@ -34,10 +34,5 @@ pipeline {
                 echo "Running integration tests on staging environment to make sure applications are running properly using Selenium,SoapUI"
             }
         }
-        stage("Deploy to Production"){
-            steps{
-                echo "Deplying the application to production server AWS EC2"
-            }
-        }
     }
 }
